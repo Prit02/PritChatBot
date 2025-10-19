@@ -1,5 +1,3 @@
-from http.client import responses
-from idlelib.query import Query
 
 import streamlit
 from langchain_groq import ChatGroq
@@ -61,3 +59,4 @@ if userMessage:
 # Get response
 # Save response in ChatHistory
 # Print Response
+
